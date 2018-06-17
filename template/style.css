@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0
+}
+html{
+	/*line-height:1;*/
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+header{
+	background-color: #555555;
+	width: 100%;
+	background: #f5f5f5 url('images/FonAristo.jpg') no-repeat center;
+	 background-size: cover;
+}
+h1{
+	padding: 0;
+	margin: 0;
+}
+h6{
+	text-align: right;
+    padding-right: 23%;
+    font-size: 1.3rem;
+    margin: 0;
+}
+.AristBack{
+	width: 100%;
+	height: 450px;
+	margin: 0 auto;
+	max-width: 1140px;
+	
+}
+.AristBack1 {
+    width: 100%;
+    background: #f5f5f5 url(images/FonAristo.jpg) no-repeat center;
+    background-size: cover;
+}
+.AristLogo{
+	width: 45px;
+	height: 45px;
+	margin: 5px;
+	object-fit: cover;
+}
+.IconCenter p{
+	margin-left: 10px;
+}
+.AristHeaderMenu{
+
+	display: flex;
+	justify-content:space-around;
+	flex-direction: row;
+	align-items: center;
+	/*background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0, 0, 0, 0.29)),color-stop(56%,rgba(0, 0, 0, 0.22)),color-stop(100%,rgba(0,0,0,0)));*/
+}
+.AristHeaderMenu a{
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid rgba(93, 93, 92, 0);
+    padding: 3px 15px;
+    border-radius: 50px;
+}
+
+.AristSlogan{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 150px;
+	background-color: #f2f2f2;
+	
+}
+.AristAuthor{
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px auto;
+    background-color: #7ec9ab;
+    color: #fff;
+}
+.AristAuthor p{
+    margin-left:15px;
+}
+.categorybutton{
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 45px;
+    color: #577a80;
+}
+.categorybutton:hover{
+     color: #2d3f42;
+}
+.AristHeaderMenu a:hover{
+  
+    border: 1px solid #fdfdfd;
+
+}
+.AristCategory{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 150px;
+	background-color: #f2f2f2;
+	flex-direction: row;
+	
+}
+.AristSlogan h1{
+
+	color: #3b3b3b;
+	font: normal 40px/40px Roboto;
+}
+.AristSloganStih{
+    padding:20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	
+	width: 100%;
+	
+	background-color: #fff;
+	color: #9c9c9c;
+	
+}
+
+.AristSloganStih p{
+	text-align: left;
+
+	
+}
+
+.contanier{
+	max-width: 1140px;
+	margin:0 auto;
+}
+
+
+
+.AristOknige{
+    padding:50px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+
+	color: #fff;
+	text-align: left;
+	width: 100%;
+	/*height: 100%;*/
+	background-color: #7ec9ab;
+}
+
+.IconCenter{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+}
+.bb{
+	margin: 0 10px;
+	    display: flex;
+   
+    flex-direction: column;
+    align-items: stretch;
+}
+.bb h5{
+	text-align: center;
+	}
+.IconsSize{
+	font-size: 70px; 
+	margin: 35px auto;
+}
+.page-footer{
+background-color:#7ec9ab;
+    width: 100%;
+    height:40px;
+    background: #f5f5f5 url(images/FonAristo.jpg) no-repeat bottom;
+    background-size: cover;
+}
+
+@media screen and (max-width: 600px) /* Mobile */ {
+
+.AristBack{
+	
+	height: 300px;
+	
+}
+.AristSlogan h1{
+
+	
+	font: normal 30px/30px Roboto;
+}
+.IconCenter p{
+	display: none;
+}
+.bb p{
+	font-size: 12px;
+
+}
+h6{
+	text-align: right;
+    padding-right: 23%;
+    font-size: 1rem;
+    margin: 0;
+}
+.AristOknige{
+	flex-direction: column;
+}
+.AristAuthor{
+    flex-direction:column;
+}
+}
